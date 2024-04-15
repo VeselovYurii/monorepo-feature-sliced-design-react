@@ -2,7 +2,9 @@
   "name": "@ddd/source",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "creation:dev":"npx nx serve creation"
+  },
   "private": true,
   "dependencies": {
     "react": "18.2.0",
