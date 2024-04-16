@@ -1,1 +1,10 @@
 /* Your styles goes here. */
+// @import {
+//     'tailwindcss/base',
+//     'tailwindcss/components', 
+//     'tailwindcss/utilities'
+//   }; 
+
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities'
