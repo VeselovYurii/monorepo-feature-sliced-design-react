@@ -1,12 +1,17 @@
+import { PropsWithChildren } from 'react';
 import styles from './button.module.scss';
 
 /* eslint-disable-next-line */
-export interface ButtonProps {}
+export interface ButtonProps {
+  onClick?: () => void;
+}
 
-export function Button(props: ButtonProps) {
+export function Button({onClick,children}: PropsWithChildren<ButtonProps>) {
   return (
-    <div className={styles['container']}>
-      <h1>Welcome to Button!</h1>
+    <div className={styles.root}>
+    <button className={styles['root-button']} onClick={onClick}>
+      {children}
+    </button>
     </div>
   );
 }

@@ -5,3 +5,9 @@
  * .container {
  * }
 */
+.root {
+    padding: 10px;
+    &-button {
+            background-color: red;
+    }
+}
