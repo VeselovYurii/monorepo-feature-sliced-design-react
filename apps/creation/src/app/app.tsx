@@ -1,12 +1,13 @@
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 import styles from './app.module.scss';
+import {Button} from  '@creation/button'
 
-import NxWelcome from './nx-welcome';
+
 
 export function App() {
   return (
-    <div>
-      <NxWelcome title="ddd" />
+    <div className='flex-1'>
+     <Button onClick={console.log}>Hello World</Button>
     </div>
   );
 }

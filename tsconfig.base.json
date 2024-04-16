@@ -14,7 +14,12 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@creation/api": ["libs/shared/api/src/index.ts"],
+      "@creation/button": ["libs/shared/ui-kit/button/src/index.ts"],
+      "@creation/hoc": ["libs/shared/hoc/src/index.ts"],
+      "@creation/hook": ["libs/shared/hook/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
